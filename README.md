@@ -23,7 +23,9 @@ Interpretation: A score of 1.0 (100%) means the vectors point in the exact same 
 Value: This prevents "False Negatives." It allows us to see if a model actually knows the answer but is simply using different terminology.Comparison of MethodsFeatureExact MatchROUGE-LSemantic SimilaritySensitivityExtremely HighModerateLow (Robust)FocusCharacter perfectionWord order/SequenceConcept/MeaningHandles Synonyms?NoNoYesHandles Extra Text?NoYesYesBest Use CaseID & Code validationHierarchy & List matchingGeneral accuracy & Logic
 
 How to Run
-Ensure LLM Responses_APQC.csv is in the same directory as the notebook.Open LLM_Evaluation.ipynb in Jupyter or VS Code.
+
+Ensure LLM Responses_APQC.csv is in the same directory as the notebook.
+Open LLM_Evaluation.ipynb in Jupyter or VS Code.
 Run all cells to generate the performance summary and visualizations.
 
 Key Findings (Summary)ModelExact Match (%)Sequence (ROUGE-L) %Semantic Similarity %LLM 19.5%56.7%HighLLM 233.3%71.1%HighLLM 34.8%43.1%Medium
