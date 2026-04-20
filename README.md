@@ -6,4 +6,24 @@ To provide a rigorous evaluation of the LLM responses against the APQC Banking P
 2. Sequence Similarity Workflow (The "Structure" Metric)Process frameworks are hierarchical and sequential. If an LLM lists 9 out of 10 steps correctly but misses the 5th step, it has still provided significant value, which the Exact Match workflow would fail to capture.Method: ROUGE-L (Longest Common Subsequence).Process: ROUGE-L identifies the longest string of words that appear in both the LLM response and the Golden Answer in the same relative order.Formula: It calculates the "F-Measure," which balances Recall (how many of the Golden Answer words were found) and Precision (how much of the LLM's response was actually relevant).Value: This is the best metric for APQC data because it rewards the model for getting the order and structure of the process levels correct, even if it includes a few extra words.
 3. Semantic Similarity Workflow (The "Intelligence" Metric)The most advanced workflow addresses the "synonym problem." An LLM might say "Evaluate Staff Performance" while the Golden Answer says "Appraise Employee Results." Mathematically, these share zero words, but semantically, they are identical.
 
-Method: Cosine Similarity via Vector Embeddings.Process: 1. We use a transformer model (all-MiniLM-L6-v2) to convert the text into a high-dimensional vector (a list of numbers representing the "meaning" of the text).2. We plot these vectors in a multi-dimensional space.3. We measure the Cosine of the angle between the LLM vector and the Golden Answer vector.Interpretation: A score of 1.0 (100%) means the vectors point in the exact same direction (identical meaning). A score of 0.0 means they are completely unrelated.Value: This prevents "False Negatives." It allows us to see if a model actually knows the answer but is simply using different terminology.Comparison of MethodsFeatureExact MatchROUGE-LSemantic SimilaritySensitivityExtremely HighModerateLow (Robust)FocusCharacter perfectionWord order/SequenceConcept/MeaningHandles Synonyms?NoNoYesHandles Extra Text?NoYesYesBest Use CaseID & Code validationHierarchy & List matchingGeneral accuracy & Logic
+Method: Cosine Similarity via Vector Embeddings.Process: 
+1. We use a transformer model (all-MiniLM-L6-v2) to convert the text into a high-dimensional vector (a list of numbers representing the "meaning" of the text).
+2. We plot these vectors in a multi-dimensional space.
+3. We measure the Cosine of the angle between the LLM vector and the Golden Answer vector.
+
+Interpretation of Results:
+If Semantic is high but Exact is low: The LLM is smart but "chatty" or uses synonyms.
+
+If ROUGE-L is low: The LLM likely missed specific steps in the framework or hallucinated the order.
+
+If all are high: The LLM is highly reliable for this specific technical domain.
+
+Interpretation: A score of 1.0 (100%) means the vectors point in the exact same direction (identical meaning). A score of 0.0 means they are completely unrelated.
+
+Value: This prevents "False Negatives." It allows us to see if a model actually knows the answer but is simply using different terminology.Comparison of MethodsFeatureExact MatchROUGE-LSemantic SimilaritySensitivityExtremely HighModerateLow (Robust)FocusCharacter perfectionWord order/SequenceConcept/MeaningHandles Synonyms?NoNoYesHandles Extra Text?NoYesYesBest Use CaseID & Code validationHierarchy & List matchingGeneral accuracy & Logic
+
+How to Run
+Ensure LLM Responses_APQC.csv is in the same directory as the notebook.Open LLM_Evaluation.ipynb in Jupyter or VS Code.
+Run all cells to generate the performance summary and visualizations.
+
+Key Findings (Summary)ModelExact Match (%)Sequence (ROUGE-L) %Semantic Similarity %LLM 19.5%56.7%HighLLM 233.3%71.1%HighLLM 34.8%43.1%Medium
