@@ -1,0 +1,413 @@
+#,APQC,Prompt,LLM1,LLM2,LLM3,Golden answer
+1,Lev 1,"In APQC Banking PCF version 7.2.1, list all the level 1 categories","1.0 Ð Develop vision and strategy
+2.0 Ð Develop and manage products and services
+3.0 Ð Market and sell products and services
+4.0 Ð Deliver physical products
+5.0 Ð Deliver services
+6.0 Ð Manage customer service
+Management and support processes
+7.0 Ð Develop and manage human capital
+8.0 Ð Manage information technology
+9.0 Ð Manage financial resources
+10.0 Ð Acquire, construct, and manage assets
+11.0 Ð Manage enterprise risk, compliance, remediation, and resiliency
+12.0 Ð Manage external relationships
+13.0 Ð Develop and manage business capabilities","1.0 Ð Develop vision and strategy
+2.0 Ð Develop and manage products and services
+3.0 Ð Market and sell products and services
+4.0 Ð Deliver physical products
+5.0 Ð Deliver services
+6.0 Ð Manage customer service
+7.0 Ð Develop and manage human capital
+8.0 Ð Manage information technology
+9.0 Ð Manage financial resources
+10.0 Ð Acquire, construct, and manage assets
+11.0 Ð Manage enterprise risk, compliance, remediation, and resiliency
+12.0 Ð Manage external relationships
+13.0 Ð Develop and manage business capabilities
+","1.0 Develop and Manage Products and Services
+2.0 Market and Sell Products and Services
+3.0 Manage Customer Service
+4.0 Manage Customer Requests and Relationships
+5.0 Manage Loans and Transactions
+Management and Support Processes
+6.0 Develop and Manage Human Capital
+7.0 Manage Financial Resources
+8.0 Manage Information Technology (IT)
+9.0 Manage Facilities and Physical Assets
+10.0 Manage Enterprise Information and Knowledge
+11.0 Manage Enterprise Risk, Compliance, Remediation, and Resiliency
+12.0 Manage External Relationships
+13.0 Develop and Manage Business Strategy","1.0 Develop Vision and Strategy
+2.0 Develop and Manage Products and Services
+3.0 Market and Sell Products and Services
+4.0 Deliver Physical Products
+5.0 Deliver Services
+6.0 Manage Customer Service
+7.0 Develop and Manage Human Capital
+8.0 Manage Information Technology (IT)
+9.0 Manage Financial Resources
+10.0 Acquire, Construct, and Manage Assets
+11.0 Manage Enterprise Risk, Compliance, Remediation, and Resiliency
+12.0 Manage External Relationships
+13.0 Develop and Manage Business Capabilities"
+2,1,"In APQC Banking PCF version 7.2.1, list all the level 2 for 1.0 - Develop Vision and Strategy","1.1 Ð Define the business concept and long-term vision
+1.2 Ð Develop the business strategy
+1.3 Ð Develop and manage strategic initiatives
+1.4 Ð Manage strategic risk and performance","1.1 Define the business concept and long-term vision
+1.2 Develop business strategy
+1.3 Manage strategic initiatives
+1.4 Develop and maintain business models","1.1 Define the business concept and long-term vision
+1.2 Develop business strategy
+1.3 Manage strategic initiatives
+1.4 Develop and maintain business models","1.1 Ð Define the business concept and long-term vision
+1.2 Ð Develop the business strategy
+1.3 Ð Execute and measure strategic initiatives
+1.4 Ð Manage strategic risk and performance"
+3,2,"In APQC Banking PCF version 7.2.1, list all the level 2 for 2.0 - Develop and Manage Products and Services",".1 Ð Design and develop products and services
+2.2 Ð Price products and services
+2.3 Ð Manage product portfolio
+2.4 Ð Manage product life cycle","2.1 Govern and manage product/service development program
+2.2 Manage product and service portfolio
+2.3 Develop products and services","2.1 Govern and manage product and service portfolio
+2.2 Design and develop products and services
+2.3 Manage product and service launch
+2.4 Manage product and service lifecycle","2.1 Govern and manage product/service development program
+2.2 Generate and define new product/service ideas
+2.3 Develop products and services"
+4,3,"In APQC Banking PCF version 7.2.1, list all the level 2 for 3.0 - Market and Sell Products and Services","3.1 Ð Understand markets, customers, and capabilities
+3.2 Ð Develop marketing strategy and plan
+3.3 Ð Develop and manage marketing programs
+3.4 Ð Manage sales opportunities
+3.5 Ð Manage customer acquisition","3.1 Understand markets, customers, and capabilities
+3.2 Develop marketing strategy
+3.3 Develop sales strategy","3.1 Manage marketing and selling policies and procedures
+3.2 Understand markets, target customers, and consumer behavior
+3.3 Develop marketing strategy
+3.4 Execute marketing plan
+3.5 Manage sales activities","3.1 Understand markets, customers, and capabilities
+3.2 Develop marketing strategy
+3.3 Develop and manage marketing plans
+3.4 Develop sales strategy
+3.5 Develop and manage sales plans"
+5,4,"In APQC Banking PCF version 7.2.1, list all the level 2 for 4.0 - Deliver Physical Products","4.1 Ð Plan for physical product delivery
+4.2 Ð Source physical products
+4.3 Ð Manufacture/assemble physical products
+4.4 Ð Deliver physical products
+4.5 Ð Manage logistics and warehousing for physical products
+4.6 Ð Manage returns and reverse logistics","4.1 Plan for and align supply chain resources
+4.2 Procure materials and services
+4.3 Produce, manufacture, and deliver product","4.1 Plan for and align supply chain resources
+4.2 Procure materials and services
+4.3 Produce/Manufacture/Deliver product
+4.4 Deliver service to customer
+4.5 Manage reverse logistics and spare parts","4.1 Plan for and aquire necessary resources
+4.2 Procure materials and services
+4.3 Produce/Manufacture/Deliver product
+4.4  Manage logistics and warehousing"
+6,7,"In APQC Banking PCF version 7.2.1, list only the level 2 for 7.0 - Develop and Manage Human Capital","7.1 Develop and manage human resources planning, policies, and strategies
+7.2 Recruit, source, and select employees
+7.3 Manage employee on-boarding, development, and training
+7.4 Manage employee relations
+7.5 Reward and retain employees
+7.6 Redeploy and retire employees
+7.7 Manage employee information and analytics
+7.8 Manage employee communication
+7.9 Deliver employee communications","7.1 Develop and manage human resources planning, policies, and strategies
+7.2 Recruit, source, and select employees
+7.3 Manage employee onboarding, training, and development
+7.4 Manage employee relations
+7.5 Manage employee performance (sometimes grouped here or with development)
+7.6 Manage employee compensation, benefits, and rewards (or reward and retain)
+7.7 Manage employee separation and retirement
+7.8 Manage human resources information systems (HRIS)
+7.9 Manage employee communication",".1 Develop and manage HR strategy
+7.2 Recruit, source, and select employees
+7.3 Manage employee onboarding
+7.4 Manage employee relations
+7.5 Manage employee development and training
+7.6 Manage employee performance
+7.7 Manage employee rewards and recognition
+7.8 Manage employee exit
+7.9 Deliver employee communications","7.1 Develop and manage human resources planning, policies, and strategies
+7.2 Recruit, source, and select employees
+7.3 Manage employee on-boarding, development, and training
+7.4 Manage employee relations
+7.5 Reward and retain employees
+7.6 Redeploy and retire employees
+7.7 Manage employee information and analytics
+7.8 Manage employee communication
+7.9 Deliver employee communications"
+7,8.1,APQC - List all the level 3 elements and their numbers for APQC 8.1,"Level 3 processes under 8.1:
+8.1.1 Define IT services
+8.1.2 Develop IT service catalog
+8.1.3 Manage IT service level agreements (SLAs)
+8.1.4 Manage IT service delivery
+8.1.5 Manage IT service performance
+8.1.6 Manage IT service issues and incidents
+8.1.7 Manage IT service continuity and availability
+8.1.8 Manage IT service capacity
+8.1.9 Manage IT service security
+8.1.10 Manage IT service configuration","8.1.1 Perform planning/budgeting/forecasting
+8.1.2 Perform cost accounting and control
+8.1.3 Perform cost management
+8.1.4 Evaluate and manage financial performance","8.1 Manage Knowledge Strategy
+8.1.1 Establish knowledge management (KM) goals (16437)
+8.1.2 Develop KM strategy (17060)
+8.1.3 Align KM strategy with business strategy (17462)
+8.1.4 Define KM technology requirements (16458)
+8.1.5 Establish KM governance (18129)","Level 3 processes under 8.1:
+8.1.1 Define IT services
+8.1.2 Develop IT service catalog
+8.1.3 Manage IT service level agreements (SLAs)
+8.1.4 Manage IT service delivery
+8.1.5 Manage IT service performance
+8.1.6 Manage IT service issues and incidents
+8.1.7 Manage IT service continuity and availability
+8.1.8 Manage IT service capacity
+8.1.9 Manage IT service security
+8.1.10 Manage IT service configuration"
+8,8.1.1,in the APQC Banking PCF version 7.2.1 list all the level 4 activities under 8.1.1 -Understand IT customer needs,"8.1.1.1 Identify business needs for IT services
+8.1.1.2 Define IT service requirements
+8.1.1.3 Classify and categorize IT services
+8.1.1.4 Define IT service components and architecture
+8.1.1.5 Establish IT service standards
+8.1.1.6 Define IT service ownership and accountability
+8.1.1.7 Align IT services with business strategy
+8.1.1.8 Document IT service definitions","8.1.1.1 Understand IT customer communities (20610)
+8.1.1.2 Assess IT customer operational capabilities (20611)
+
+These are the only two level 4 activities under 8.1.1 in the Banking PCF 7.2.1. No further level 4 activities exist for this process","8.1.1 Understand IT Customer Needs
+8.1.1.1 Identify IT customer stakeholders (10534)
+8.1.1.2 Determine IT customer requirements (10535)
+8.1.1.3 Analyze IT customer requirements (10536)
+8.1.1.4 Document IT customer requirements (10537)
+8.1.1.5 Prioritize IT customer requirements (10538)
+8.1.1.6 Obtain IT customer sign-off on requirements (10539)","8.1.1.1 Understand IT customer communities (20610)
+8.1.1.2 Assess IT customer operational capabilities (20611)"
+9,9.1,"In APQC Banking PCF version 7.2.1, list all the level 2 for  9..1- Perform planning and management accounting","9.1.1 Ð Perform planning/budgeting/forecasting
+9.1.2 Ð Perform management reporting and analysis
+9.1.3 Ð Perform cost accounting and profitability analysis","9.1.1 Perform planning/budgeting/forecasting
+9.1.2 Perform cost accounting and control
+9.1.3 Perform cost management
+9.1.4 Evaluate and manage financial performance","9.1.1 Perform planning/budgeting/forecasting
+9.1.2 Perform cost management
+9.1.3 Evaluate and manage financial performance
+9.1.4 Manage and report business-unit and function performance","9.1 Perform planning and management accounting
+9.2  Perform revenue accounting
+9.3 Perform general accounting and reporting
+9.4 Manage fixed-asset project accounting"
+10,9.3,"In APQC Banking PCF version 7.2.1, list all the level 3 for  9.3 -Perform general accounting and reporting",".3.1 Manage financial policies and procedures
+9.3.2 Perform general accounting
+9.3.3 Perform fixed-asset accounting
+9.3.4 Perform financial reporting",".3.1 Manage financial policies and procedures
+9.3.2 Perform general accounting
+9.3.3 Perform fixed-asset accounting
+9.3.4 Perform financial reporting","9.3.1 Ð Manage policies and procedures
+9.3.2 Ð Perform general accounting
+9.3.3 Ð Perform closing of general ledger
+9.3.4 Ð Perform fixed-asset accounting
+9.3.5 Ð Manage enterprise financial assets
+9.3.6 Ð Perform financial reporting","9.3.1 Manage policies and procedures
+9.3.2   Perform general accounting
+9.3.3   Perform closing of general ledger
+9.3.4   Perform fixed-asset accounting
+9.3.5   Manage enterprise financial assets
+9.3.6   Perform financial reporting"
+11,11.1,"In APQC Banking PCF version 7.2.1, list all the level 3 for 11.1- Manage enterprise risk","11.1.1 Ð Establish the enterprise risk framework and policies (16439)
+11.1.2 Ð Oversee and coordinate enterprise risk management activities (16445)
+11.1.3 Ð Coordinate business unit and functional risk management activities (16452)
+11.1.4 Ð Manage business unit and function risk (17462)","11.1.1 Establish the enterprise risk framework and policies
+11.1.2 Oversee and coordinate enterprise risk management activities
+11.1.3 Manage business unit and function risk
+11.1.4 Coordinate business unit and functional risk management activities","11.1.1 Ð Establish the enterprise risk framework and policies (16439)
+11.1.2 Ð Oversee and coordinate enterprise risk management activities (16445)
+11.1.3 Ð Manage business unit and function risk (17462)
+11.1.4 Ð Coordinate business unit and functional risk management activities (16452)","11.1.1 Establish the enterprise risk framework and policies
+11.1.2 Oversee and coordinate enterprise risk management activities
+11.1.3 Manage business unit and function risk
+11.1.4 Coordinate business unit and functional risk management activities"
+12,11.2,"In APQC Banking PCF version 7.2.1, list all the level 3 for 11.2- Manage compliance","11.2.1 Ð Establish compliance framework and policies (17468)
+11.2.2 Ð Manage regulatory compliance (16463)","11.2.1 Establish compliance framework and policies
+11.2.2 Manage regulatory compliance","11.4.1 Establish compliance strategy (11072)
+11.4.2 Establish compliance framework (11073)
+11.4.3 Identify compliance requirements (11074)
+11.4.4 Assess compliance (11075)
+11.4.5 Perform compliance testing (11076))","11.2.1 Establish compliance framework and policies
+11.2.2 Manage regulatory compliance"
+13,11.3,"In APQC Banking PCF version 7.2.1, list all the level 3 for 11.3- Manage remediation efforts","11.3.1 Ð Create remediation plans (11201)
+11.3.2 Ð Contact and confer with experts (11202)
+11.3.3 Ð Identify/dedicate resources (11203)
+11.3.4 Ð Investigate legal aspects (11204)
+11.3.5 Ð Investigate damage cause (11205)
+11.3.6 Ð Amend or create policy (11206)","11.3.1 Create remediation plans
+11.3.2 Contact and confer with experts
+11.3.3 Identify/dedicate resources
+11.3.4 Investigate legal aspects
+11.3.5 Investigate damage cause
+11.3.6 Amend or create policy","11.3.1 Identify remediation requirements (11079)
+11.3.2 Develop remediation plans (11080)
+11.3.3 Maintain remediation plans (11081)
+11.3.4 Execute remediation plans (11082)
+11.3.5 Monitor and evaluate remediation performance (11083)","11.3.1 Create remediation plans
+11.3.2 Contact and confer with experts
+11.3.3 Identify/dedicate resources
+11.3.4 Investigate legal aspects
+11.3.5 Investigate damage cause
+11.3.6 Amend or create policy"
+14,11.4,"In APQC Banking PCF version 7.2.1, list all level 3 for 11.4  - Manage business resiliency","11.4.1 Establish business resiliency management framework
+11.4.2 Conduct business impact analysis
+11.4.3 Develop business continuity plans
+11.4.4 Develop disaster recovery plans
+11.4.5 Test and maintain business continuity and disaster recovery plans
+11.4.6 Manage crisis and incident response
+11.4.7 Monitor and improve business resiliency capabilities","11.4.1 Develop the business resilience strategy
+11.4.2 Perform continuous business operations planning
+11.4.3 Test continuous business operations
+11.4.4 Maintain continuous business operations
+11.4.5 Share knowledge of specific risks across other parts of the organization","11.4.1 Develop business resiliency strategy (11065)
+11.4.2 Develop business resiliency plans (11066)
+11.4.3 Maintain business resiliency plans (11067)
+11.4.4 Train and test business resiliency plans (11068)
+11.4.5 Execute business resiliency plans (11069)
+11.4.6 Monitor and evaluate business resiliency performance (11070)","11.4.1 Develop the business resilience strategy
+11.4.2 Perform continuous business operations planning
+11.4.3 Test continuous business operations
+11.4.4 Maintain continuous business operations
+11.4.5 Share knowledge of specific risks across other parts of the organization"
+15,11.0',"In APQC Banking PCF version 7.2.1, list all level 2 for 11.0 - Manage Enterprise Risk, Compliance, Remediation, and Resiliency","11.1 (17060) Ñ Manage enterprise risk
+11.2 (17467) Ñ Manage compliance
+11.3 (11185) Ñ Manage remediation efforts
+11.4 (11216) Ñ Manage business resiliency","11.1 Manage enterprise risk
+11.2 Manage compliance
+11.3 Manage remediation efforts
+11.4 Manage business resiliency","11.1 Establish enterprise risk management framework
+11.2 Monitor and evaluate enterprise risk
+11.3 Manage business resiliency
+11.4 Manage compliance
+11.5 Manage remediation","11.1 Manage enterprise risk
+11.2 Manage compliance
+11.3 Manage remediation efforts
+11.4 Manage business resiliency"
+16,11.1.3,"In APQC Banking PCF version 7.2.1, list all level 4 for 11.1.3 - Manage business unit and function risk","11.1.3.1 Identify business unit and functional risks
+11.1.3.2 Assess business unit and functional risks
+11.1.3.3 Evaluate and prioritize business unit and functional risks
+11.1.3.4 Develop risk mitigation strategies for business units and functions
+11.1.3.5 Implement risk mitigation and control activities
+11.1.3.6 Monitor and report on business unit and functional risks","1.1.3.1 Identify risks (16456)
+11.1.3.2 Assess risks using enterprise risk framework policies and procedures (16457)
+11.1.3.3 Develop mitigation plans for risks (16458)
+11.1.3.4 Implement mitigation plans for risks (16459)
+11.1.3.5 Monitor risks (16460)
+11.1.3.6 Analyze risk activities and update plans (16461)
+11.1.3.7 Report on risk activities (16462)","11.1.3.1 Identify business unit and function risk (11025)
+11.1.3.2 Evaluate business unit and function risk (11026)
+11.1.3.3 Formulate business unit and function risk response (11027)
+11.1.3.4 Execute business unit and function risk response (11028)
+11.1.3.5 Monitor business unit and function risk (11029)","11.1.3.1	Identify risks
+11.1.3.2	Assess risks using enterprise risk framework policies and procedures
+11.1.3.3	Develop mitigation plans for risks
+11.1.3.4	Implement mitigation plans for risks
+11.1.3.5	Monitor risks
+11.1.3.6	Analyze risk activities and update plans
+11.1.3.7	Report on risk activities"
+17,11.1.2,"In APQC Banking PCF version 7.2.1, list all level 4 for 11.1.2  - Oversee and coordinate enterprise risk management activities","11.1.2.1 Establish enterprise risk governance structure
+11.1.2.2 Define roles and responsibilities for enterprise risk management
+11.1.2.3 Coordinate risk management activities across business units and functions
+11.1.2.4 Facilitate communication and escalation of risk issues
+11.1.2.5 Consolidate and report enterprise risk information
+11.1.2.6 Monitor effectiveness of enterprise risk management activities","11.1.2.1 Identify enterprise level risks (16446)
+11.1.2.2 Assess risks to determine which to mitigate (16447)
+11.1.2.3 Develop risk mitigation and management strategy, and integrate with existing performance management processes (16448)
+11.1.2.4 Verify business unit and functional risk mitigation plans are implemented (16449)
+11.1.2.5 Ensure risks and risk mitigation actions are monitored (16450)
+11.1.2.6 Report on risk activities (16451)","11.1.2.1 Define enterprise risk management (ERM) categories (11016)
+11.1.2.2 Define enterprise risk management (ERM) assessment criteria (11017)
+11.1.2.3 Define enterprise risk management (ERM) reporting requirements (11018)
+11.1.2.4 Establish enterprise risk management (ERM) tools and technology (11019)","11.1.2.1 Establish enterprise risk governance structure
+11.1.2.2 Define roles and responsibilities for enterprise risk management
+11.1.2.3 Coordinate risk management activities across business units and functions
+11.1.2.4 Facilitate communication and escalation of risk issues
+11.1.2.5 Consolidate and report enterprise risk information
+11.1.2.6 Monitor effectiveness of enterprise risk management activities
+11.1.2.7 Coordinate business unit and functional risk management activities
+11.1.2.8 Ensure that each business unit/function follows the enterprise risk management process
+11.1.2.9 Ensure that each business unit/function follows the enterprise risk reporting process"
+18,11.1.5,"In APQC Banking PCF version 7.2.1, list all level 4 for 11.1.5 - Manage financial risk","11.1.5.1.1 Acquire credit risk data
+11.1.5.1.2 Develop credit policies
+11.1.5.1.3 Manage global credit limits
+11.1.5.1.4 Develop an early-warning system
+11.1.5.1.5 Manage issuer exposure
+11.1.5.1.6 Manage credit portfolio
+","11.1.5.1 Manage credit risk
+11.1.5.2 Manage market risk (includes interest rate risk, foreign exchange risk, etc.)
+11.1.5.3 Manage liquidity risk
+11.1.5.4 Manage operational risk (financial aspects)
+11.1.5.5 Manage other financial risks","11.1.5.1 Identify financial risk (11034)
+11.1.5.2 Evaluate financial risk (11035)
+11.1.5.3 Formulate financial risk response (11036)
+11.1.5.4 Execute financial risk response (11037)
+11.1.5.5 Monitor financial risk (11038)","11.1.5.1 Manage credit risk
+11.1.5.2 Manage strategic investment risk
+11.1.5.3 Manage market risk
+11.1.5.4 Manage insurance risk"
+19,12,"From APQC Banking PCF version 7.2.1, list all the level 2 for 12.0 - DManage External Relationships","12.1 Ð Manage relationships with regulators
+12.2 Ð Manage relationships with investors and shareholders
+12.3 Ð Manage relationships with suppliers and partners
+12.4 Ð Manage relationships with external stakeholders","2.1 Build investor relationships
+12.2 Manage government and industry relationships
+12.3 Manage relations with board of directors
+12.4 Manage legal and ethical issues
+12.5 Manage public relations program","12.1 Build investor relationships
+12.2 Manage government and industry body relationships
+12.3 Manage legal and ethical issues
+12.4 Manage public relations","12.1 Build investor relationships
+12.2 Manage government and industry relationships
+12.3 Manage relations with board of directors
+12.4 Manage legal and ethical issues
+12.5 Manage public relations program"
+20,12.4,"From APQC Banking PCF version 7.2.1, list all the level 3 for 12.4 - Manage legal and ethical issues","12.4.1 Ð Manage legal services
+12.4.2 Ð Manage ethical standards
+12.4.3 Ð Manage compliance
+12.4.4 Ð Manage disputes and litigation
+12.4.5 Ð Manage intellectual property
+12.4.6 Ð Manage corporate governance","12.4.1 Create ethics policies
+12.4.2 Manage corporate governance policies
+12.4.3 Develop and perform preventive law programs
+12.4.4 Ensure compliance
+12.4.5 Manage outside counsel
+12.4.6 Protect intellectual property
+12.4.7 Resolve disputes and litigations
+12.4.8 Provide legal advice/counseling
+12.4.9 Negotiate and document agreements/contracts","12.4.1 Manage strategy for legal and ethical issues
+12.4.2 Manage legal issues
+12.4.3 Manage ethical issues
+12.4.4 Manage external counsel
+12.4.5 Protect intellectual property
+12.4.6 Manage compliance","12.4.1 Create ethics policies
+12.4.2 Manage corporate governance policies
+12.4.3 Develop and perform preventive law programs
+12.4.4 Ensure compliance
+12.4.5 Manage outside counsel
+12.4.6 Protect intellectual property
+12.4.7 Resolve disputes and litigations
+12.4.8 Provide legal advice/counseling
+12.4.9 Negotiate and document agreements/contracts"
+21,12.5,"incorrect till now.
+From APQC Banking PCF version 7.2.1, list all the level 3 for 12.5 - Manage public relations program","12.5.1 Ð Develop public relations strategy
+12.5.2 Ð Manage media relations
+12.5.3 Ð Manage external communications
+12.5.4 Ð Manage public relations events and programs
+12.5.5 Ð Manage crisis communications","12.5.1 Manage community relations
+12.5.2 Manage media relations
+12.5.3 Promote political stability (or promote political/public policy relations in some alignments)
+12.5.4 Create press releases
+12.5.5 Issue press releases","12.5.1 Manage community relations
+12.5.2 Manage media relations
+12.5.3 Manage board of directors relations
+12.5.4 Manage investor relations
+12.5.5 Manage government and industry body relations","12.5.1 Manage community relations
+12.5.2 Manage media relations
+12.5.3 Promote political stability (or promote political/public policy relations in some alignments)
+12.5.4 Create press releases
+12.5.5 Issue press releases"
