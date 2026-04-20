@@ -30,6 +30,7 @@ Run all cells to generate the performance summary and visualizations.
 
 Key Findings (Summary)ModelExact Match (%)Sequence (ROUGE-L) %Semantic Similarity %LLM 19.5%56.7%HighLLM 233.3%71.1%HighLLM 34.8%43.1%Medium
 
+
 Model,Exact Match (%),Sequence (ROUGE-L) %,Semantic Similarity %
 LLM 1,9.5%,56.7%,High
 LLM 2,33.3%,71.1%,High
